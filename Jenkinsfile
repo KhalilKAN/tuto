@@ -12,7 +12,7 @@ pipeline {
                 }
                 container('kubectl') {
                     script {
-                        sh 'kubectl get pod'
+                        sh 'kubectl get pods'
                     }
                 }
                 container('fortune') {
