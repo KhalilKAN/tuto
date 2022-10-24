@@ -10,7 +10,7 @@ pipeline {
                         sh 'podman run hello-world'
                     }
                 }
-                container('fortune') {
+                container('kubectl') {
                     script {
                         sh 'kubectl version'
                     }
