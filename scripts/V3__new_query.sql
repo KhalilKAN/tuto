@@ -1,1 +1,6 @@
-alter table tasks insert (new_column INT); 
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    user_name VARCHAR(50),
+    last_name VARCHAR(50)
+);
