@@ -1,1 +1,1 @@
-SELECT * as 'Nuevo' FROM stasks;
+alter table tasks insert (new_column INT); 
